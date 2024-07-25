@@ -1,4 +1,7 @@
-.overlay {                                                /* dark overlay gor photos */
+img{
+    max-height: 90vh;
+}
+.overlay {                                                /* dark overlay for photos */
     position: absolute;
     top: 0;
     left: 0;
@@ -9,6 +12,12 @@
 .heading-text{
     font-family: "Karla", sans-serif;
     font-size: 5vh;
+    color: rgb(231, 231, 231);
+}
+.h2-text{
+    font-family: "Karla", sans-serif;
+    font-size: 4vh;
+    color: rgb(231, 231, 231);
 }
 .nav-text{
     font-family: "Karla", sans-serif;
@@ -17,6 +26,7 @@
 .paragraph-text{
     font-family: "Source Code Pro", monospace;
     font-weight: 200;
+    color: rgb(231, 231, 231);
 }
 .custom-container-header{
     max-width: 80%;
@@ -70,6 +80,8 @@
     background-size: cover;
     background-position: center;
     padding-top: 120px;
+    max-height: 100vh;
+    position: relative;
 }
 .header-content {
     position: relative; 
@@ -79,7 +91,8 @@
     background-color: #1d1d45a6;
     padding-bottom: 2vh;
 }
-.wrap{                                                   /* wrap for text in header */
-    max-width: 90%;
-    margin: auto;
+/* ABOUT STARTS */
+.about_main{
+    max-width: 80%;
+    margin-top: 20px;
 }
