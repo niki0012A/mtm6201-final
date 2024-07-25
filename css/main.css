@@ -47,7 +47,9 @@ img{
 }
 /* NAV BAR STARTS */
 .background-color{
-    background-color: #1D1D45;
+    background-image: url(../images/background.jpg);
+    background-size: repeat;
+    background-position: center;
 }
 .navbar-custom{
     background-color: #161738;
