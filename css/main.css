@@ -42,8 +42,19 @@ img{
     border: none;
     margin-top: 2vh;
 }
+.btn-custom:hover{                                                                /* BUTTONS SCREAM */
+    color: white;
+    background-color: #23234b;
+}
 .main-text{                                                            /* COLOR OF ALL TEXT, EVERYTHERE*/  
     color: rgb(231, 231, 231);
+}
+.nav-text .nav-link {
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+.nav-text .nav-link:hover {
+    color: #5F5FAF;
 }
 /* NAV BAR STARTS */
 .background-color{
