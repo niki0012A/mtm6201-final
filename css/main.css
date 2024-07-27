@@ -74,7 +74,7 @@ img{
 }
 /* HEADER STARTS */
 .logo{
-    max-width: 17vh;
+    max-width: 15vh;
     padding-bottom: 15px;
 }
 .header_background{
@@ -97,4 +97,26 @@ img{
 .about_main{
     max-width: 80%;
     margin-top: 20px;
+}
+/* FORMS*/
+.color-forms{
+    background-color: #3C3C72;
+}
+.forms_margin{
+    margin-top: 100px;
+}
+.custom-container-forms{
+    max-width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+/* FOOTER */
+.footer_background{
+    background-color: #161738;
+    padding: 0.5vh 0;
+    margin-bottom: 0;
 }
