@@ -48,7 +48,7 @@ img{
 /* NAV BAR STARTS */
 .background-color{
     background-image: url(../images/background.jpg);
-    background-size: repeat;
+    background-size: cover;
     background-position: center;
 }
 .navbar-custom{
