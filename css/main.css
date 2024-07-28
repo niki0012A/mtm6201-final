@@ -19,6 +19,10 @@ img{
     font-size: 4vh;
     color: rgb(231, 231, 231);
 }
+.h4-text{
+    font-family: "Karla", sans-serif;
+    color: rgb(231, 231, 231);
+}
 .nav-text{
     font-family: "Karla", sans-serif;
     font-size: 2.5vh;
@@ -89,7 +93,7 @@ img{
     padding-bottom: 15px;
 }
 .header_background{
-    background-image: url(../images/michael-benz-IgWNxx7paz4-unsplash.jpg);
+    background-image: url(../images/heading-image.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 120px;
@@ -120,7 +124,38 @@ img{
     max-width: 80%;
     margin: auto;
 }
-
+/* ABOUT HEADER */
+.about_header {
+    position: relative;
+    background: url(/images/heading-image.jpg) no-repeat center center;
+    background-size: cover;
+}
+.header-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about_padding{
+    padding-top: 13vh;;
+}
+/* OUR SHARKS */
+.img-sharks{
+    max-height: 40vh;
+}
+.color-forms {
+    background-color: #3C3C72;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.img_width{
+    max-width: 80%;
+}
 
 
 
