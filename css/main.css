@@ -3,10 +3,9 @@ img{
 }
 .overlay {                                                /* dark overlay for photos */
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .heading-text{
@@ -118,11 +117,14 @@ img{
     background-color: #3C3C72;
 }
 .forms_margin{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .custom-container-forms{
     max-width: 80%;
     margin: auto;
+}
+.forms-color{
+    background-color: #3C3C72;
 }
 /* ABOUT HEADER */
 .about_header {
@@ -142,9 +144,9 @@ img{
 }
 /* OUR SHARKS */
 .img-sharks{
-    max-height: 40vh;
+    max-height: 30vh;
 }
-.color-forms {
+.our-sharks {
     background-color: #3C3C72;
     display: flex;
     align-items: center;
@@ -154,8 +156,30 @@ img{
     border-radius: 10px;
 }
 .img_width{
-    max-width: 80%;
+    max-width: 70%;
 }
+/* WORK TOGETHER PART */
+.work-together-background {
+    background-image: url(/images/waves.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.work-together-content {
+    padding: 8vh 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
 
 
 
@@ -165,4 +189,12 @@ img{
     background-color: #161738;
     padding: 0.5vh 0;
     margin-bottom: 0;
+}
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
 }
