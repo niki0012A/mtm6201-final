@@ -49,6 +49,10 @@ img{
     color: white;
     background-color: #23234b;
 }
+.btn-custom:focus{                                                                /* BUTTONS SCREAM */
+    color: white;
+    background-color: #23234b;
+}
 .main-text{                                                            /* COLOR OF ALL TEXT, EVERYTHERE*/  
     color: rgb(231, 231, 231);
 }
@@ -174,7 +178,14 @@ img{
     position: relative;
     z-index: 1;
 }
-
+/* SURVIVORS */
+.survivors_background{
+    background-image: url(/images/clouds.jpg);
+    background-size: cover;
+}
+.img-logos{
+    max-width: 24vh;
+}
 
 
 
