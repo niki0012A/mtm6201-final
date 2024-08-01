@@ -186,9 +186,98 @@ img{
 .img-logos{
     max-width: 24vh;
 }
-
-
-
+/* OPTIONS */
+.web-design{
+    background-image: url(/images/web-dev-coding.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 30px;
+    position: relative;
+}
+.web-content{
+    position: relative;
+    z-index: 2;
+}
+.web-design::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 30px;
+}
+/*  */
+.web-dev{
+    background-image: url(/images/coding.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 30px;
+    position: relative;
+}
+.development-content{
+    position: relative;
+    z-index: 2;
+}
+.web-dev::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 30px;
+}
+/*  */
+.ui-design{
+    background-image: url(/images/designer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 30px;
+    position: relative;
+}
+.ui-content{
+    position: relative;
+    z-index: 2;
+}
+.ui-design::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 30px;
+}
+/*  */
+.options-container{
+    width: 80%;
+    margin: auto;
+}
+.web-design,
+.web-dev,
+.ui-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.web-design .web-content,
+.web-dev .development-content,
+.ui-design .ui-content {
+  text-align: center;
+}
+.options-container {
+    display: block;
+}
 
 
 
@@ -208,4 +297,17 @@ img{
 }
 .container {
     flex: 1;
+}
+
+
+@media (min-width: 768px) {
+    .options-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap; /* предотвращает перенос элементов на следующую строку */
+    }
+  
+    .options-container .col-lg-4 {
+      flex: 0 0 30%; /* задает ширину каждому элементу и позволяет им оставаться в один ряд */
+    }
 }
