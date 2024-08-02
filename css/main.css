@@ -259,10 +259,6 @@ img{
     border-radius: 30px;
 }
 /*  */
-.options-container{
-    width: 80%;
-    margin: auto;
-}
 .web-design,
 .web-dev,
 .ui-design {
@@ -303,11 +299,6 @@ img{
 @media (min-width: 768px) {
     .options-container {
       display: flex;
-      justify-content: space-between;
-      flex-wrap: nowrap; /* предотвращает перенос элементов на следующую строку */
-    }
-  
-    .options-container .col-lg-4 {
-      flex: 0 0 30%; /* задает ширину каждому элементу и позволяет им оставаться в один ряд */
+      flex-wrap: nowrap;
     }
 }
