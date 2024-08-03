@@ -275,11 +275,6 @@ img{
     display: block;
 }
 
-
-
-
-
-
 /* FOOTER */
 .footer_background{
     background-color: #161738;
@@ -294,6 +289,7 @@ img{
 .container {
     flex: 1;
 }
+
 
 /* TABLETS AND BIGGER */
 @media (min-width: 768px) {
