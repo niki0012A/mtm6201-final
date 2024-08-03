@@ -76,11 +76,21 @@
 <div class="about_main container mb-5">
   <h2 class="h2-text">About</h2>
   <div class="row">
-    <div class="col-lg-6 col-md-6 order-1 order-md-2"><img src="images/image-about-2.jpg" alt="" class="img-fluid"></div>
+    <div class="col-lg-6 col-md-6 order-1 order-md-2">
+      <picture>
+        <source srcset="/images/image-about-big.jpg" media="(min-width: 768px)">
+        <source srcset="/images/image-about-small.jpg" media="(max-width: 767px)">
+        <img src="/images/image-about-small.jpg" alt="wqqwe" class="img-fluid">
+      </picture>
+    </div>
     <div class="col-lg-6 col-md-6 order-2 order-md-1 p-3"><p class="paragraph-text text-center text-md-start">At Shark Bite, we pride ourselves on delivering tailor-made web solutions that perfectly match our clients' unique needs and goals. Our experienced team of developers, designers, and digital strategists work collaboratively to create websites that are not only visually stunning but also highly functional and user-friendly.</p></div>
   </div>
   <div class="row">
-    <div class="col-md-6 order-1 order-md-3"><img src="images/image-about.jpg" alt="" class="img-fluid"></div>
+    <div class="col-md-6 order-1 order-md-3"><picture>
+      <source srcset="/images/image-about-2-big.jpg" media="(min-width: 768px)">
+      <source srcset="/images/image-about-2-small.jpg" media="(max-width: 767px)">
+      <img src="/images/image-about-2-small.jpg" alt="wqqwe" class="img-fluid">
+    </picture></div>
     <div class="col-md-6 order-2 order-md-4 p-3"><p class="paragraph-text text-center text-md-end">Our comprehensive suite of services includes custom website development, responsive web design, e-commerce solutions, content management systems, and search engine optimization. We utilize the latest technologies and industry best practices to deliver websites that perform seamlessly across all devices and platforms.</p></div>
   </div>
 </div>

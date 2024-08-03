@@ -73,7 +73,11 @@
     <div class="row justify-content-center mt-4">
       <div class="col-md-4 col-sm-6 mb-4 img_width">
         <div class="our-sharks p-3">
-          <img src="images/me_main_img.jpg" alt="Anna Nikiforova" class="rounded-circle img-sharks p-4">
+          <picture>
+            <source srcset="/images/me_main_img-small.jpg" media="(min-width: 768px)">
+            <source srcset="/images/me_main_img-big.jpg" media="(max-width: 767px)">
+            <img src="/images/me_main_img-small.jpg" alt="brown hair girl, web developer" class="rounded-circle img-sharks p-3">
+          </picture>
           <h2 class="h2-text">Developer</h2>
           <h4 class="h4-text">Anna Nikiforova</h4>
           <button class="btn-custom">Who?</button>
@@ -81,7 +85,11 @@
       </div>
       <div class="col-md-4 col-sm-6 mb-4 img_width">
         <div class="our-sharks p-3">
-          <img src="images/developer.jpg" alt="Web Designer" class="rounded-circle img-sharks p-4">
+          <picture>
+            <source srcset="/images/developer-small.jpg" media="(min-width: 768px)">
+            <source srcset="/images/developer-big.jpg" media="(max-width: 767px)">
+            <img src="/images/developer-small.jpg" alt="young man in black head, designer" class="rounded-circle img-sharks p-3">
+          </picture>
           <h2 class="h2-text">Designer</h2>
           <h4 class="h4-text">Random Man</h4>
           <button class="btn-custom">Who?</button>

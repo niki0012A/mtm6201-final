@@ -96,7 +96,7 @@ img{
     padding-bottom: 15px;
 }
 .header_background{
-    background-image: url(../images/heading-image.jpg);
+    background-image: url(../images/heading-image-small.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 120px;
@@ -133,7 +133,7 @@ img{
 /* ABOUT HEADER */
 .about_header {
     position: relative;
-    background: url(/images/heading-image.jpg) no-repeat center center;
+    background: url(/images/heading-image-small.jpg) no-repeat center center;
     background-size: cover;
 }
 .header-content {
@@ -164,7 +164,7 @@ img{
 }
 /* WORK TOGETHER PART */
 .work-together-background {
-    background-image: url(/images/waves.jpg);
+    background-image: url(/images/waves-small.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -180,7 +180,7 @@ img{
 }
 /* SURVIVORS */
 .survivors_background{
-    background-image: url(/images/clouds.jpg);
+    background-image: url(/images/clouds-small.jpg);
     background-size: cover;
 }
 .fixed{
@@ -188,7 +188,7 @@ img{
 }
 /* OPTIONS */
 .web-design{
-    background-image: url(/images/web-dev-coding.jpg);
+    background-image: url(/images/web-dev-coding-small.jpg);
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -212,7 +212,7 @@ img{
 }
 /*  */
 .web-dev{
-    background-image: url(/images/coding.jpg);
+    background-image: url(/images/coding-small.jpg);
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -236,7 +236,7 @@ img{
 }
 /*  */
 .ui-design{
-    background-image: url(/images/designer.jpg);
+    background-image: url(/images/designer-small.jpg);
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -295,8 +295,31 @@ img{
     flex: 1;
 }
 
-
+/* TABLETS AND BIGGER */
 @media (min-width: 768px) {
+    .header_background{
+        background-image: url(../images/heading-image-big.jpg);
+    }
+    .about_header {
+        background: url(/images/heading-image-big.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .work-together-background {
+        background-image: url(/images/waves-big.jpg);
+    }
+    .survivors_background{
+        background-image: url(/images/clouds-big.jpg);
+        background-size: cover;
+    }
+    .web-design{
+        background-image: url(/images/web-dev-coding-big.jpg);
+    }
+    .web-dev{
+        background-image: url(/images/coding-big.jpg);
+    }
+    .ui-design{
+        background-image: url(/images/designer-big.jpg);
+    }
     .options-container {
       display: flex;
       flex-wrap: nowrap;
