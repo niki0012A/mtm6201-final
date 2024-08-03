@@ -183,8 +183,8 @@ img{
     background-image: url(/images/clouds.jpg);
     background-size: cover;
 }
-.img-logos{
-    max-width: 24vh;
+.fixed{
+    max-width: 50vh;
 }
 /* OPTIONS */
 .web-design{
